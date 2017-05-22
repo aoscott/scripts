@@ -1,3 +1,0 @@
-#!/bin/bash
-
-ssh -f -N -L 5980:localhost:5980 ascott@ac01.soc.sfo01.qualys.com
