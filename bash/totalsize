@@ -1,0 +1,15 @@
+#!/bin/bash
+
+## Example code of process substitution
+##NOT WORKING
+
+ls -l |
+	while read perms links owner group size month day time file
+
+do 
+
+	printf "%10d %s\n" "$size" "$file"
+	totalsize=$(( ${totalsize:=0} + ${size}:-0} ))
+done
+
+echo ${totalsize-unset} ## print "unset" if variable is not set
