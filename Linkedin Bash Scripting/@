@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# I added a parameter just to be fancy and for pratice.
+NUMBER=$1
+COUNT=0
+
+while [ $COUNT -lt $1 ]
+do
+	echo "COUNT = $COUNT"
+	((COUNT++))  		# I don't know what this does!
+done
+
+echo "while loop finished."
+exit 0

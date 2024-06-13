@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/bin/bash
 
 # This bash script does absolutely nothing worthwhile.
 

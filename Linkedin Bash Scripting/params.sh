@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/bin/bash
 
 #This is demonstrate parameters.
 
